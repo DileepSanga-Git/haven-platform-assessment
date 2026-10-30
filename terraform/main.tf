@@ -17,10 +17,13 @@
 # destroy/recreate cascade.
 
 resource "aws_s3_bucket" "landlord_media" {
-  count  = length(var.landlord_accounts)
-  bucket = "haven-media-${var.landlord_accounts[count.index]}"
+#  count  = length(var.landlord_accounts)
+  for_each = toset(var.landlord_accounts)
+  #bucket = "haven-media-${var.landlord_accounts[count.index]}"
+  bucket = "haven-media-${each.key}"
 
   tags = {
-    landlord_account_id = var.landlord_accounts[count.index]
+  #  landlord_account_id = var.landlord_accounts[count.index]
+     landlord_account_id = each.key
   }
 }
