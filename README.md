@@ -37,3 +37,12 @@ for how to use it.
 | `terraform/main.tf` | B0 |
 | `terraform/lifecycle.tf` | B1 |
 | `app/access_control.py`, `scripts/cost_tag_check.py` | B2 — stubs to implement |
+
+
+## Assessment Recording
+
+[Watch the assessment recording](https://drive.google.com/file/d/17YGcwhHnodZ4iJJ7pEa9Aoow2DKN6OmF/view?usp=sharing)
+
+## Repository
+
+https://github.com/DileepSanga-Git/haven-platform-assessment
