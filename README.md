@@ -43,6 +43,8 @@ for how to use it.
 
 [Watch the assessment recording](https://drive.google.com/file/d/17YGcwhHnodZ4iJJ7pEa9Aoow2DKN6OmF/view?usp=sharing)
 
+[Watch the assessment recording with Voice](https://drive.google.com/file/d/1YKthNXsfvFeB1DdtWgPBtPsTLBJWk56S/view?usp=sharing)
+
 ## Repository
 
 https://github.com/DileepSanga-Git/haven-platform-assessment
